@@ -1,45 +1,45 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    font-family: 'Courier New', Courier, monospace;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background: linear-gradient(to right, rgb(247, 248, 248), rgb(172, 187, 120));
+body {
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, rgb(247, 248, 248), rgb(172, 187, 120));
 }
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: bisque;
-    backdrop-filter: blur(10px);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    padding: 20px;
-    flex-direction: column;
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: bisque;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+  flex-direction: column;
 }
-textarea{
-    width: 500px;
-    height: 300px;
-    margin: 10px auto;
-    display: block;
-    font-size: 24px;
-    padding: 20px;
-    color: black;
-    border: 1px solid black;
-    resize: none ;
+textarea {
+  width: 500px;
+  height: 300px;
+  margin: 10px auto;
+  display: block;
+  font-size: 24px;
+  padding: 20px;
+  color: black;
+  border: 1px solid black;
+  resize: none;
 }
-#result{
-    font-size: 24px;
-    color: rgb(0, 0, 0);
-    font-weight: bolder;
+#result {
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
 }
-button{
-    font-size: 20px;
-    background-color: aqua;
-    width: 200px;
+button {
+  font-size: 20px;
+  background-color: aqua;
+  width: fit-content;
 }
